@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #778888;
+}
+
+#titulo {
+    font-size: 24px;
+    margin: 0;
+    text-align: initial;
+}
+#encabezado {
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    text-align:end;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contenido {
+    padding: 20px;
+}
+
+.contenido-seccion {
+    display: none; /* Escondemos todos los apartados por defecto */
+}
+#sobre-mi {
+    display: block; /* Hace que 'Sobre mí' se vea por defecto */
+}
+
+#pie{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    clear: both;
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+    position:relative;
+    left:0px;
+    bottom:0px;
+    height:80px;
+    width:100%;
+ }
+#redes{
+    float: right;
+}
+
+div {
+    width: 80%;             /* o el ancho que quieras */
+    margin: 0 auto;         /* centra horizontalmente */
+    text-align: center;     /* centra el contenido (texto, imágenes, etc) */
+}
+
+
